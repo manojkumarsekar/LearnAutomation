@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10646" started-at="2017-04-01T10:03:30Z" finished-at="2017-04-01T10:03:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10646" started-at="2017-04-01T10:03:30Z" finished-at="2017-04-01T10:03:41Z">
+      <class name="testcases.Loginpagewithreports_screenshot">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.Loginpagewithreports_screenshot@42d80b78]" name="setup" is-config="true" duration-ms="7498" started-at="2017-04-01T18:03:30Z" finished-at="2017-04-01T18:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testhomepage()[pri:0, instance:testcases.Loginpagewithreports_screenshot@42d80b78]" name="testhomepage" duration-ms="1342" started-at="2017-04-01T18:03:37Z" finished-at="2017-04-01T18:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhomepage -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testcases.Loginpagewithreports_screenshot@42d80b78]" name="teardown" is-config="true" duration-ms="1785" started-at="2017-04-01T18:03:39Z" finished-at="2017-04-01T18:03:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testhomepage status=SUCCESS method=Loginpagewithreports_screenshot.testhomepage()[pri:0, instance:testcases.Loginpagewithreports_screenshot@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.Loginpagewithreports_screenshot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
